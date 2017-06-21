@@ -4,6 +4,8 @@ Provides a shipping script for AWS ECS dockerized apps.
 
 ## Installation
 
+This requires the AWS CLI tools to be configured on the machine running the script. [Learn how](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)  
+
 Add this line to your application's Gemfile, probably in the `development` group:
 
 ```ruby
@@ -43,7 +45,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ecs_ship.
+Bug reports and pull requests are welcome on GitHub at https://github.com/NEWECX/ecs_ship.
 
 
 ## License
